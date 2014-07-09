@@ -2,6 +2,8 @@ plot3 <- function(strFileName="household_power_consumption.txt") {
   ## Exploratory Data Analysis Coursera Class - July 2014 Session
   ## Project 1 - Due Date July 13, 2014
   ## File: plot3.R
+  ## Input parameter = strFileName, which allows one to specify a different location for the original text data file.
+  ## The default value is for the file name to be the "original" file name, located in the current working directory.    
   
   ## Get the data.  Uses a "helper" function (see below).
   df <- readdata(strFileName)
